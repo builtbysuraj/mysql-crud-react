@@ -1,0 +1,8 @@
+body{
+  background-color: grey;
+}
+
+td{
+  padding: 15px;
+  border: 1px solid black;
+}
