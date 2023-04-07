@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Home";
+import Home from "./components/Home";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Create from "./Create";
-import Read from "./Read";
-import Edit from "./Edit";
-import Error from "./Error";
+import Create from "./components/Create";
+import Read from "./components/Read";
+import Edit from "./components/Edit";
+import Error from "./components/Error";
 
 export default function App() {
   return (

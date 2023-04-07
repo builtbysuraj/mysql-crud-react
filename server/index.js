@@ -3,6 +3,7 @@ import cors from "cors"
 import { createConnection } from "mysql"
 
 const app = express()
+const PORT = process.env.PORT || 4000
 app.use(cors())
 app.use(express.json())
 
@@ -61,4 +62,4 @@ app.delete("/delete/:Id", (req, res) => {
   })
 })
 
-app.listen(4000, console.log(`working on 4000`))
+app.listen(PORT, console.log(`Express running on ${PORT} 🎉`))

@@ -23,7 +23,6 @@ export default function Edit() {
     axios
       .put(`http://localhost:4000/update/${Id}`, values)
       .then((res) => {
-        console.log(res);
         navigate("/");
       })
       .catch((err) => console.log(err));

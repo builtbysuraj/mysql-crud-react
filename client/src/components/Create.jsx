@@ -12,7 +12,6 @@ export default function Create() {
     e.preventDefault();
     try {
       axios.post(`http://localhost:4000/products`, values).then((res) => {
-        console.log(res);
         navigate("/");
       });
     } catch (error) {
